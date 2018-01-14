@@ -1,0 +1,78 @@
+html
+{
+  font-family: Ubuntu !important;
+}
+body
+{
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.blogfondo
+{
+  background: #DCDDDF;
+  padding:0px 10px 0px 10px;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+.blogcnt
+{
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.coliz
+{
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+.colizdd
+{
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+.colizzz:hover
+{
+  -webkit-transform:scale(1,2);transform:scale(1.2);
+}
+
+.navaux
+{
+  border-radius: 0 50px 50px 0;
+  box-shadow: none;
+}
+.navcol
+{
+  background: -webkit-linear-gradient(left, #DCDDDF, #0098DA, #292E52);
+  background: -o-linear-gradient(left, #DCDDDF, #0098DA, #292E52);
+  background: -moz-linear-gradient(left, #DCDDDF, #0098DA, #292E52);
+  background: linear-gradient(to right, #DCDDDF, #0098DA, #292E52);
+  box-shadow: 8px 8px 8px #999;
+}
+.navlateral
+{
+  background-image: url(../img/fondolat.png);
+}
+.colorlat
+{
+  color: white !important;
+}
+.imgblog
+{
+  width: 90%;
+  text-align: center;
+}
+.blogfondo:hover
+{
+  opacity: 0.9;
+}
+.imgblog:hover
+{
+  -webkit-transform:scale(0.85);transform:scale(0.85);
+}
